@@ -1,0 +1,35 @@
+# MoodCanvas Dependencies
+
+# Core AI Libraries
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+diffusers>=0.21.0
+accelerate>=0.20.0
+
+# Google AI Integration
+google-generativeai>=0.3.0
+
+# Web Interface
+gradio>=4.0.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=1.5.0
+Pillow>=9.5.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Optional: Performance Optimization
+xformers>=0.0.20  # Optional: for faster attention computation
+# bitsandbytes>=0.39.0  # Optional: for memory optimization
+
+# Development Dependencies (uncomment if needed)
+# jupyter>=1.0.0
+# matplotlib>=3.6.0
+# seaborn>=0.12.0
+
+# Production Dependencies
+gunicorn>=20.1.0  # For production deployment
+uvicorn>=0.22.0   # Alternative ASGI server
